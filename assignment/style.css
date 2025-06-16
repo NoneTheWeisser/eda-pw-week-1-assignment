@@ -16,9 +16,12 @@ h1 {text-align: center;
 p {color:aliceblue;
 font-style: italic}
 /* Put a border around your image */
-img {border: 2px solid black}
+img {border: 2px solid black;
+max-width: 200px;}
 /* Change the font-family of your list */
 li {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 /* Add a background color to the footer element */
 footer {background-color: cornflowerblue;
-padding: 2px;}
+padding: 2px;
+text-align: center;
+}
