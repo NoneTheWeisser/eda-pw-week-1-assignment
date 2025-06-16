@@ -1,8 +1,13 @@
 /* Add a background color to the header element */
 header {background-color: cornflowerblue;
-color:aliceblue}
+color:aliceblue;
+margin: auto;
+padding: top 5px;px;
+padding-bottom: 10px; }
 /* Add a fun background color to the main element */
-main {background-color:aliceblue }
+main {background-color:aliceblue; margin: 5px;
+padding-top:10px;
+padding-bottom: 10px; }
 /* Align the h1 containing your name in the center of the header*/
 h1 {text-align: center;}
 /* Make your p tag a different color and italic */
@@ -14,4 +19,4 @@ img {border: 2px solid black}
 li {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 /* Add a background color to the footer element */
 footer {background-color: cornflowerblue;
-padding: 5px;}
+padding: 2px;}
