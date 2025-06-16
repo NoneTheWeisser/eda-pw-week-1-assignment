@@ -3,13 +3,15 @@ header {background-color: cornflowerblue;
 color:aliceblue;
 margin: auto;
 padding: top 5px;
-padding-bottom: 10px; }
+padding-bottom: 10px;
+ }
 /* Add a fun background color to the main element */
 main {background-color:aliceblue; margin: 5px;
 padding-top:10px;
 padding-bottom: 10px; }
 /* Align the h1 containing your name in the center of the header*/
-h1 {text-align: center;}
+h1 {text-align: center;
+}
 /* Make your p tag a different color and italic */
 p {color:aliceblue;
 font-style: italic}
