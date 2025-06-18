@@ -1,0 +1,219 @@
+nweisser@Nicks-MacBook-Air html-boilerplate % touch index.html
+nweisser@Nicks-MacBook-Air html-boilerplate % code .
+nweisser@Nicks-MacBook-Air html-boilerplate % cd/
+zsh: no such file or directory: cd/
+nweisser@Nicks-MacBook-Air html-boilerplate % pwd
+/Users/nweisser/Desktop/html-boilerplate
+nweisser@Nicks-MacBook-Air html-boilerplate % cd ~
+nweisser@Nicks-MacBook-Air ~ % pwd
+/Users/nweisser
+nweisser@Nicks-MacBook-Air ~ % ls
+Applications		eda			Music			Tax Shit
+Desktop			Google Drive		Pictures
+Documents		Library			Public
+Downloads		Movies			SIMS_4_V2_PC_CLIENT
+nweisser@Nicks-MacBook-Air ~ % eda
+zsh: command not found: eda
+nweisser@Nicks-MacBook-Air ~ % ls
+Applications		eda			Music			Tax Shit
+Desktop			Google Drive		Pictures
+Documents		Library			Public
+Downloads		Movies			SIMS_4_V2_PC_CLIENT
+nweisser@Nicks-MacBook-Air ~ % cd eda
+nweisser@Nicks-MacBook-Air eda % ls
+tier1
+nweisser@Nicks-MacBook-Air eda % tier1
+zsh: command not found: tier1
+nweisser@Nicks-MacBook-Air eda % cd tier1 
+nweisser@Nicks-MacBook-Air tier1 % ls
+week1
+nweisser@Nicks-MacBook-Air tier1 % cd week1
+nweisser@Nicks-MacBook-Air week1 % ls   
+eda-pw-week-1-assignment
+nweisser@Nicks-MacBook-Air week1 % cd eda-pw-week-1-assignment 
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % clear
+
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % cd ~
+nweisser@Nicks-MacBook-Air ~ % ls
+Applications		eda			Music			Tax Shit
+Desktop			Google Drive		Pictures
+Documents		Library			Public
+Downloads		Movies			SIMS_4_V2_PC_CLIENT
+nweisser@Nicks-MacBook-Air ~ % cd desktop
+nweisser@Nicks-MacBook-Air desktop % mkdir odin-links-and-images
+nweisser@Nicks-MacBook-Air desktop % cd odin-links-and-images 
+nweisser@Nicks-MacBook-Air odin-links-and-images % touch index.html
+nweisser@Nicks-MacBook-Air odin-links-and-images % code .
+nweisser@Nicks-MacBook-Air odin-links-and-images % ls
+index.html
+nweisser@Nicks-MacBook-Air odin-links-and-images % touch about.html
+nweisser@Nicks-MacBook-Air odin-links-and-images % code .
+nweisser@Nicks-MacBook-Air odin-links-and-images % pwd
+/Users/nweisser/desktop/odin-links-and-images
+nweisser@Nicks-MacBook-Air odin-links-and-images % mkdir pages
+nweisser@Nicks-MacBook-Air odin-links-and-images % cd pages
+nweisser@Nicks-MacBook-Air pages % ls
+about.html
+nweisser@Nicks-MacBook-Air pages % cd
+nweisser@Nicks-MacBook-Air ~ % ls
+Applications		eda			Music			Tax Shit
+Desktop			Google Drive		Pictures
+Documents		Library			Public
+Downloads		Movies			SIMS_4_V2_PC_CLIENT
+nweisser@Nicks-MacBook-Air ~ % cd Desktop 
+nweisser@Nicks-MacBook-Air Desktop % cd odin-links-and-images 
+nweisser@Nicks-MacBook-Air odin-links-and-images % mkdir images
+nweisser@Nicks-MacBook-Air odin-links-and-images % cd   
+nweisser@Nicks-MacBook-Air ~ % ls
+Applications		eda			Music			Tax Shit
+Desktop			Google Drive		Pictures
+Documents		Library			Public
+Downloads		Movies			SIMS_4_V2_PC_CLIENT
+nweisser@Nicks-MacBook-Air ~ % cd eda
+nweisser@Nicks-MacBook-Air eda % cd tier1 
+nweisser@Nicks-MacBook-Air tier1 % cd week1
+nweisser@Nicks-MacBook-Air week1 % cd eda-pw-week-1-assignment 
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % ls
+assignment		package-lock.json	README.md
+images			package.json		test
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % cd assignment 
+nweisser@Nicks-MacBook-Air assignment % ls
+helloWorld.js	images		index.html	style.css
+nweisser@Nicks-MacBook-Air assignment % code . 
+nweisser@Nicks-MacBook-Air assignment % git push origin master
+Everything up-to-date
+nweisser@Nicks-MacBook-Air assignment % code .
+nweisser@Nicks-MacBook-Air assignment % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+	modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nweisser@Nicks-MacBook-Air assignment % git add .
+nweisser@Nicks-MacBook-Air assignment % git commit m- "added more to bullet list & changed some css"
+error: pathspec 'm-' did not match any file(s) known to git
+error: pathspec 'added more to bullet list & changed some css' did not match any file(s) known to git
+nweisser@Nicks-MacBook-Air assignment % git commit -m "added to bullet list and adjusted css"       
+[master 86d52bd] added to bullet list and adjusted css
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+nweisser@Nicks-MacBook-Air assignment % git add .
+nweisser@Nicks-MacBook-Air assignment % git commit -m "Text adjustments"
+[master 2609c25] Text adjustments
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+nweisser@Nicks-MacBook-Air assignment % git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+	modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nweisser@Nicks-MacBook-Air assignment % git add .
+nweisser@Nicks-MacBook-Air assignment % git commit -m "changed verbage" 
+[master 2840723] changed verbage
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+nweisser@Nicks-MacBook-Air assignment % git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 1.67 KiB | 1.67 MiB/s, done.
+Total 14 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), completed with 3 local objects.
+To https://github.com/NoneTheWeisser/eda-pw-week-1-assignment.git
+   226dd79..2840723  master -> master
+nweisser@Nicks-MacBook-Air assignment % pwd
+/Users/nweisser/eda/tier1/week1/eda-pw-week-1-assignment/assignment
+nweisser@Nicks-MacBook-Air assignment % cd
+nweisser@Nicks-MacBook-Air ~ % cd Desktop
+nweisser@Nicks-MacBook-Air Desktop % cd odin-links-and-images 
+nweisser@Nicks-MacBook-Air odin-links-and-images % index.html
+zsh: command not found: index.html
+nweisser@Nicks-MacBook-Air odin-links-and-images % ls
+images		index.html	pages
+nweisser@Nicks-MacBook-Air odin-links-and-images % index.html
+zsh: command not found: index.html
+nweisser@Nicks-MacBook-Air odin-links-and-images % pwd
+/Users/nweisser/Desktop/odin-links-and-images
+nweisser@Nicks-MacBook-Air odin-links-and-images % mkdir js
+nweisser@Nicks-MacBook-Air odin-links-and-images % mkdir css
+nweisser@Nicks-MacBook-Air odin-links-and-images % cd
+nweisser@Nicks-MacBook-Air ~ % cd eda 
+nweisser@Nicks-MacBook-Air eda % cd tier1
+nweisser@Nicks-MacBook-Air tier1 % cd week1
+nweisser@Nicks-MacBook-Air week1 % cd eda-pw-week-1-assignment 
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % ls
+assignment		package-lock.json	README.md
+images			package.json		test
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git commit m
+error: pathspec 'm' did not match any file(s) known to git
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % code .
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git commit -m
+error: switch `m' requires a value
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   assignment/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git add . 
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   assignment/index.html
+
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git commit -m
+error: switch `m' requires a value
+nweisser@Nicks-MacBook-Air eda-pw-week-1-assignment % git commit
+hint: Waiting for your editor to close the file... 
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   assignment/index.html
+Testing out commit message
+I wanted to try submitting a longer message. Nothing was changed, this is more for learning. 
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+-- INSERT --
